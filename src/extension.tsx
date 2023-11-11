@@ -18,8 +18,14 @@ export class AITranslatorExtension implements IExtension {
     const activityBar: IActivityBarItem = {
       id: 'aiTranslator.activityBar',
       name: 'AiTranslator',
-      title: 'AI Translator',
-      icon: 'word-wrap',
+      title: 'Translate using AI',
+      icon: (
+        <img
+          style={{ padding: 5, borderRadius: 10, height: 40 }}
+          src="https://raw.githubusercontent.com/gethubai/ai-translator/main/public/icon.png"
+          alt="Icon"
+        />
+      ),
     };
 
     extensionCtx.services.activityBar.add(activityBar);

@@ -1,6 +1,6 @@
 {
     "name": "ai-translator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Translate using AI",
     "icon": "public/icon.png",
     "main": "./src/index.js",
@@ -59,6 +59,7 @@
         "description": "Translate texts using AI",
         "extensionKind": [
             "workbench"
-        ]
+        ],
+        "contributes": {}
     }
 }

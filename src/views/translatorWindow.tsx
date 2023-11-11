@@ -83,7 +83,7 @@ export function TranslatorWindow({
         </div>
         <div className="input-container">
           <Input.TextArea
-            placeholder="From"
+            placeholder="Type the text to translate or improve"
             className="from-input input-field"
             value={from}
             onChange={(e) => onFromInputTextChanged(e.target.value)}
