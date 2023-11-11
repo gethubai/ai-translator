@@ -53,6 +53,14 @@ export class TranslatorWindowController extends Controller {
         code: 'ru',
         name: 'Russian',
       },
+      {
+        name: 'Italian',
+        code: 'it',
+      },
+      {
+        name: 'Japanese',
+        code: 'ja',
+      }
     ];
 
     const availableBrains = this.brainClientManager
