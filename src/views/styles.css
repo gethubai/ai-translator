@@ -1,0 +1,45 @@
+.ai-translator__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 95%;
+
+  .ai-translator__inputs-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .language-selection-container {
+      margin-bottom: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .swap-icon {
+      margin: 0 10px;
+      margin-top: 10px;
+      font-size: x-large;
+      cursor: pointer;
+    }
+  }
+
+  .input-container {
+    display: flex;
+    flex-wrap: wrap; /* This allows the items to wrap onto the next line */
+    height: 100%;
+
+    .input-field {
+      flex: 1; /* This makes each input field take equal space */
+      min-width: 400px; /* Replace with your desired minimum width */
+      margin: 5px; /* Optional: for some spacing around the inputs */
+      min-height: 200px;
+      height: 25%;
+    }
+
+    .input-error {
+      border-color: red;
+    }
+  }
+}
